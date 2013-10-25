@@ -1,0 +1,9 @@
+Description:
+    Create a CoffeeScript Backbone model with spec
+
+Example:
+    rails generate backbone:model Thing
+
+    This will create:
+        app/assets/javascript/models/thing.js.coffee
+        spec/javascript/models/thing_spec.js.coffee

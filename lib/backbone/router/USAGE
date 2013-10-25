@@ -1,0 +1,9 @@
+Description:
+    Create a CoffeeScript Backbone router with spec
+
+Example:
+    rails generate backbone:router Thing
+
+    This will create:
+        app/assets/javascript/routers/thing_router.js.coffee
+        spec/javascript/routers/thing_router_spec.js.coffee

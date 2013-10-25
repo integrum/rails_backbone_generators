@@ -1,0 +1,10 @@
+Description:
+    Create a CoffeeScript Backbone view with template and spec
+
+Example:
+    rails generate backbone:view Thing
+
+    This will create:
+        app/assets/javascript/views/thing_view.js.coffee
+        app/assets/javascript/templates/thing.jst.eco
+        spec/javascript/views/thing_view_spec.js.coffee
