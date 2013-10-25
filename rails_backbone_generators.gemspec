@@ -5,7 +5,7 @@ require 'rails_backbone_generators'
 
 Gem::Specification.new do |spec|
   spec.name          = "rails_backbone_generators"
-  spec.version       = OfcpCardCounter::VERSION
+  spec.version       = RailsBackboneGenerators::VERSION
   spec.authors       = ["Jade Meskill", "Roy van de Water"]
   spec.email         = ["gems@integrumtech.com"]
   spec.description   = %q{Rails Backbone Generators}
