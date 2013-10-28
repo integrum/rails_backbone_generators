@@ -1,9 +1,11 @@
 Description:
-    Create a CoffeeScript Backbone collection with spec
+    Create a CoffeeScript Backbone collection with model and spec
 
 Example:
     rails generate backbone:collection Things
 
     This will create:
         app/assets/javascript/collections/things.js.coffee
+        app/assets/javascript/models/thing.js.coffee
         spec/javascript/collections/things_spec.js.coffee
+        spec/javascript/models/thing_spec.js.coffee
