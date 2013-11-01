@@ -7,3 +7,4 @@ class window.<%= singular_class_name %>RowView extends Backbone.View
 
   render: =>
     @$el.html @template @context()
+    this

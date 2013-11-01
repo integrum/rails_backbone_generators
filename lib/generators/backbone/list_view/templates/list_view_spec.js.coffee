@@ -1,5 +1,5 @@
-describe '<%= class_name %>View', ->
+describe '<%= plural_class_name %>ListView', ->
   beforeEach ->
-    @sut = new <%= class_name %>View
+    @sut = new <%= plural_class_name %>ListView
     @sut.render()
 
