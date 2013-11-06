@@ -22,7 +22,7 @@ class window.<%= plural_class_name %>TableView extends Backbone.View
 
   # Instance Methods
   add_one: (model) =>
-    view = new <%= singtablear_class_name %>RowView model: model
+    view = new <%= singular_class_name %>RowView model: model
     @$('table').append view.render().$el
     @views.push view
 
