@@ -3,9 +3,9 @@ class window.<%= plural_class_name %>TableView extends Backbone.View
 
   initialize: =>
     @views = []
-    @tableenTo @collection, 'add', @add_one
-    @tableenTo @collection, 'sync error request reset', @render
-    @tableenTo @collection, 'search', @render
+    @listenTo @collection, 'add', @add_one
+    @listenTo @collection, 'sync error request reset', @render
+    @listenTo @collection, 'search', @render
 
   context: =>
     loading: @collection.loading
@@ -23,7 +23,7 @@ class window.<%= plural_class_name %>TableView extends Backbone.View
   # Instance Methods
   add_one: (model) =>
     view = new <%= singular_class_name %>RowView model: model
-    @$('table').append view.render().$el
+    @$('tbody').append view.render().$el
     @views.push view
 
   remove_views: =>
