@@ -1,2 +1,2 @@
-class window.<%= class_name.pluralize %> extends Backbone.Collection
-  model: <%= class_name.singularize %>
+class window.<%= plural_class_name %> extends Backbone.Collection
+  model: <%= singular_class_name %>
