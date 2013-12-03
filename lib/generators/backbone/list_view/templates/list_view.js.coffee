@@ -5,7 +5,6 @@ class window.<%= plural_class_name %>ListView extends Backbone.View
     @views = []
     @listenTo @collection, 'add', @add_one
     @listenTo @collection, 'sync error request reset', @render
-    @listenTo @collection, 'search', @render
 
   context: =>
     loading: @collection.loading

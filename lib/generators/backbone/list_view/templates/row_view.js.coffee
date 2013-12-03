@@ -4,6 +4,7 @@ class window.<%= singular_class_name %>RowView extends Backbone.View
 
   initialize: =>
     @listenTo @model, 'remove', @remove
+    @listenTo @model, 'change', @render
 
   context: =>
     model: @model.toJSON()
