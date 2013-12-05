@@ -6,3 +6,4 @@ class window.<%= class_name %>View extends Backbone.View
 
   render: =>
     @$el.html @template @context()
+    this
