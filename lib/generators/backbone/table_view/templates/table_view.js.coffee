@@ -1,5 +1,5 @@
-class window.<%= plural_class_name %>ListView extends Backbone.View
-  template: JST['templates/<%= plural_file_name %>_list']
+class window.<%= plural_class_name %>TableView extends Backbone.View
+  template: JST['templates/<%= plural_file_name %>_table']
 
   initialize: =>
     @views = []
@@ -22,7 +22,7 @@ class window.<%= plural_class_name %>ListView extends Backbone.View
   # Instance Methods
   add_one: (model) =>
     view = new <%= singular_class_name %>RowView model: model
-    @$('ul').append view.render().$el
+    @$('tbody').append view.render().$el
     @views.push view
 
   remove_views: =>
