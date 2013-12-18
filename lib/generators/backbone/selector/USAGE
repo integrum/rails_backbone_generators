@@ -1,0 +1,11 @@
+Description:
+    Create a CoffeeScript Backbone Selector with templates
+
+Example:
+
+In this example, you can select projects to add and remove from users and the relationship will be called project users
+
+    rails generate backbone:selector <relationship> <receiver> <emitter>
+    rails generate backbone:selector project_users user projects
+
+
