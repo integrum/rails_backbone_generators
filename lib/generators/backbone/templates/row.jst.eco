@@ -1,0 +1,3 @@
+<a href="#">
+  <%%= @model.<%= singular_emittor_file_name %>_name %>
+</a>

@@ -1,0 +1,7 @@
+<h1><%= human_name %></h1>
+
+<h2>Existing <%= human_name %></h2>
+<div class="existing"></div>
+
+<h2>Available <%= human_name %></h2>
+<div class="available"></div>

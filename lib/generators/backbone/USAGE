@@ -1,0 +1,19 @@
+Description:
+    Create a CoffeeScript Backbone List View with templates and specs
+
+Example:
+    rails generate backbone:list_view thing
+
+    This will create:
+        app/assets/javascript/models/thing.js.coffee
+        app/assets/javascript/collections/things.js.coffee
+        app/assets/javascript/views/thing_row_view.js.coffee
+        app/assets/javascript/views/things_list_view.js.coffee
+
+        app/assets/javascript/templates/thing_row.jst.eco
+        app/assets/javascript/templates/things_list.jst.eco
+
+        spec/javascript/models/thing_spec.js.coffee
+        spec/javascript/collections/things_spec.js.coffee
+        spec/javascript/views/thing_row_spec.js.coffee
+        spec/javascript/views/things_list_spec.js.coffee
