@@ -1,4 +1,4 @@
-describe '<%= class_name %>', ->
+describe '<%= plural_class_name %>', ->
   beforeEach ->
-    @sut = new <%= class_name %>
+    @sut = new <%= plural_class_name %>
 
