@@ -1,4 +1,6 @@
-describe '<%= class_name %>', ->
+describe '<%= singular_class_name %>', ->
   beforeEach ->
-    @sut = new <%= class_name %>
+    @sut = new <%= singular_class_name %>
 
+  it 'should be true', ->
+    expect(true).toBeTruthy()

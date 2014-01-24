@@ -3,3 +3,5 @@ describe '<%= plural_class_name %>ListView', ->
     @sut = new <%= plural_class_name %>ListView
     @sut.render()
 
+  it 'should be true', ->
+    expect(true).toBeTruthy()
